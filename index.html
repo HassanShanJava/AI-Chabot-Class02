@@ -50,16 +50,21 @@
         .line{
             border-bottom: 2px solid rgb(66, 24, 24);
             padding:0 10px;
+            padding-top: 20px;
+            
             margin: auto;
         }
         .skills{
+
             padding: 0 10px;
+            padding-top: 20px;
             margin: auto;
         }
         
         .skills ul{
             list-style-type: disc;
             padding: 0 30px;
+            padding-top: 5px;
         }
 
         .skills li{
@@ -68,9 +73,12 @@
 
         .education{
             padding:10px;
+            padding-top: 20px;
+            
         }
         .education ol{
             padding: 0 30px;
+            padding-top: 5px;
         }
         .education li{
             padding: 3px;
@@ -81,9 +89,35 @@
             justify-content: space-between;
 
         }
+        .certificate{
+            padding:10px;
+            padding-top: 20px;
+            
+        }
+        .certificate ol{
+            padding: 0 30px;
+            padding-top: 5px;
+        }
+        .certificate li{
+            padding: 3px;
+        }
+
+        .certificate .flex-edu{
+            display: flex;
+            justify-content: space-between;
+
+        }
         .flex-edu ul{
             direction: rtl;
             list-style-type: none;
+        }
+
+        .achievements{
+            padding:10px;
+            padding-top: 20px;
+        }
+        .list-ach , span{
+            padding:0 30px;
         }
     </style>
 </head>
@@ -131,6 +165,11 @@
                 <li>Our Own English High School, Fujairah, UAE</li>
             </ol>
             <ul>
+                <li>BSCS</li>
+                <li>A Level</li>
+                <li>O Level</li>
+            </ul>
+            <ul>
                 <li>2019-2023</li>
                 <li>2016-2018</li>
                 <li>2013-2016</li>
@@ -139,6 +178,38 @@
     </div>
 
     <div class="line" ></div>
+
+    <div class="certificate">
+        <h1>Certification</h1>
+        <div class="flex-edu">
+            <ol>
+                <li>PIAIC - Cloud Native Computing</li>
+                <li>PIAIC - Blockchain Computing</li>
+                <li>AI Chabot Development</li>
+            </ol>
+            <ul>
+                <li>2022-2023</li>
+                <li>2022-2023</li>
+                <li>2022-2023</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="line" ></div>
+
+    <div class="achievements">
+        <h1>Achivements</h1>
+        <div class="flex-edu">
+            <ol class="list-ach">
+                <li>Certificate of appreciation for created an AI Chabot in my 6th semester.</li>
+            </ol>
+            <span>
+                <a href="https://www.youtube.com/watch?v=aEzEnMhXUG8">Youtube Link</a>
+            </span>
+        </div>
+
+    </div>
 
 </body>
 </html>
